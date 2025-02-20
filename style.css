@@ -1,103 +1,91 @@
   
 
   a {
-    color: #1772d0;
+    color: #2DC947;
     text-decoration: none;
   }
   
   a:focus,
   a:hover {
-    color: #f09228;
+    color: #249d38;
     text-decoration: none;
   }
   
   header{
-    margin-top: 20px;
+    
     position: fixed;
     top: 0%;
     left: 0%;
-    width: 95%;
-    padding: 25px;
+    width: 100%;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100px;
-    border-bottom: 3px solid #1772d0;
+    z-index: 2;
+    border-bottom: 3px solid #249d38;
     background-color: #ffffff;
+    padding-right: 50px;
   }
 
-  .logo{
-    font-size: 22px;
+  #logo-img{
+    height: 10%;
+    width: 30%;
+    border-radius: 0%;
+    background-color: rgb(255, 255, 255);
+    
   }
+  #logo{
+    width: 20%;
+    float: left;
+    height: 15%;
+    margin: 0 2% 0;
+}
 
+#title-img{
+    width: 100%;
+    height: 20%;
+    filter: sepia(100%) saturate(100%) brightness(40%) hue-rotate(100deg);
+}
   nav a{
     font-size: 16px;
-    color: blue;
+    color: #000000;
     margin-left: 20px;
     transition: 0.3s ease;
+    
   }
   nav a:hover, nav a:active{
-    color: pink;
-    border-bottom: 3px solid pink;
+    color: #2DC947;
+    border-bottom: 3px solid #2DC947;
+  }
+  nav{
+    padding-right: 50px;
   }
   
 
   body,
   html,
-  td,
-  th,
-  tr,
   p
   {
-    
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 14px;
     width: 100%;
   }
   
-  strong {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
-  }
-  
-  h2 {
-    margin: 0;
-    font-weight: normal;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
-  }
-  
-  .papertitle {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-  }
-  
-  
-  
-  .one {
-    width: 160px;
-    height: 160px;
-    position: relative;
-  }
-  
-  .two {
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
-  }
-  
-  
-  
-  span.highlight {
-    background-color: #ffffd0;
-  }
 
   .container{
     padding: 100px;
   }
   
+
+    
+    .footerBottom {
+        background-color: #004323;
+        padding: 1px;
+        text-align: center;
+    }
+    .footerBottom p{
+        color: white;
+        font-size: 16px;
+    }
+        
   
