@@ -1,4 +1,6 @@
-a {
+  
+
+  a {
     color: #1772d0;
     text-decoration: none;
   }
@@ -9,14 +11,48 @@ a {
     text-decoration: none;
   }
   
+  header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 95%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100px;
+    border-bottom: 3px solid #1772d0;
+    background-color: #ffffff;
+  }
+
+  .logo{
+    font-size: 22px;
+  }
+
+  nav a{
+    font-size: 16px;
+    color: blue;
+    margin-left: 20px;
+    transition: 0.3s ease;
+  }
+  nav a:hover, nav a:active{
+    color: pink;
+    border-bottom: 3px solid pink;
+  }
+  
+
   body,
+  html,
   td,
   th,
   tr,
-  p,
-  a {
+  p
+  {
+    
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 14px;
+    width: 100%;
   }
   
   strong {
@@ -37,12 +73,7 @@ a {
     font-weight: 700;
   }
   
-  .name {
-    padding-top: 20px;
-    margin: 0;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 32px;
-  }
+  
   
   .one {
     width: 160px;
@@ -59,19 +90,14 @@ a {
     -webkit-transition: opacity .2s ease-in-out;
   }
   
-  .fade {
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
-  }
+  
   
   span.highlight {
     background-color: #ffffd0;
   }
-  
-  .colored-box {
-      color: black;
-      padding: 20px;
-      display: inline-block;
-      border-radius: 10px;
+
+  .container{
+    padding: 100px;
   }
+  
+  
